@@ -380,8 +380,11 @@ p {
 }
 
 .ul-IHF {
+    
+    text-align: justify;
+    width: 50%;
     margin: 0%;
-    padding: 0%;
+    padding: 0 0 0 2rem;
 }
 
 .ul-IHF>li {
