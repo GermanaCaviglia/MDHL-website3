@@ -6,11 +6,6 @@ body {
     background-color: #e0e1e0;
 }
 
-.container-title {
-    margin: 0;
-    position: relative;
-}
-
 h1 {
     margin: 0;
     padding: 40px 160px;
@@ -41,20 +36,20 @@ nav>ul {
     margin-top: 5px;
 }
 
-ul>li>a {
+nav>ul>li>a {
     margin: 0px 6px 0px 3px;
     padding: 10px 6px;
     background-color: #9b1633;
     text-decoration: none;
     color: white;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: bold;
     border-style: solid;
     border-width: 2px;
     border-color: white;
 }
 
-ul>li>a:hover {
+nav>ul>li>a:hover {
     background-color: white;
     color: #9b1633;
 }
@@ -62,29 +57,24 @@ ul>li>a:hover {
 h2 {
     text-align: center;
     align-content: center;
-    margin: 20px auto;
+    margin: auto;
+    margin-top: 20px;
     font-size: 7vh;
-    height: 9vh;
+    color: white;
+    height: 8vh;
     width: 60vw;
     border-style: solid;
     border-width: 2px;
     background-color: #9b1633;
-    color: white;
-}
-
-h4 {
-    margin: 0;
-    color: white;
-    padding: 10px;
-}
-
-p {
-    margin: 0;
-    color: white;
 }
 
 .textindent {
     text-indent: 2rem;
+}
+
+.white {
+    margin: 0;
+    color: white;
 }
 
 footer {
@@ -99,6 +89,22 @@ footer {
     color: white;
 }
 
+.main-images {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-images>img {
+    margin: 0;
+    width: 19vw;
+    object-fit: cover;
+    object-position: center;
+}
+
 .events {
     display: flex;
     justify-content: center;
@@ -107,8 +113,8 @@ footer {
 
 .event1 {
     background-color: #747091;
-    height: 253px;
-    width: 30vw;
+    height: 140px;
+    width: 29.5vw;
     margin: 3px;
     display: flex;
     flex-direction: column;
@@ -121,30 +127,29 @@ footer {
     background-color: #9b1633;
 }
 
-
 .events2-3 {
     flex-direction: column;
 }
 
 .event2 {
     background-color: #747091;
-    height: 125px;
+    height: 69px;
     width: 30vw;
     margin: 3px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .event2:hover {
-    font-size: 22px;
+    font-size: 16px;
     background-color: #9b1633;
 }
 
 .event3 {
     background-color: #747091;
-    height: 125px;
+    height: 69px;
     width: 30vw;
     margin: 3px;
     display: flex;
@@ -154,24 +159,8 @@ footer {
 }
 
 .event3:hover {
-    font-size: 18px;
+    font-size: 16px;
     background-color: #9b1633;
-}
-
-.main-images {
-    display: flex;
-    justify-content: space-between;
-    width: 60vw;
-    margin-top: 10px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.main-images>img {
-    margin: 0;
-    width: 19vw;
-    object-fit: cover;
-    object-position: center;
 }
 
 .aboutMDHL {
@@ -258,7 +247,6 @@ footer {
     margin-right: 30px;
 }
 
-
 .contact {
     display: flex;
     justify-content: center;
@@ -273,6 +261,11 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 3px;
+}
+
+.container-text>p {
+    margin: 0;
+    color: white;
 }
 
 .mailcontact {
@@ -290,4 +283,115 @@ footer {
     margin-right: auto;
     object-fit: cover;
     object-position: center 53%;
+}
+
+
+
+
+
+
+
+
+h4 {
+    margin: 0;
+    color: white;
+}
+
+p {
+    margin: 0;
+    color: white;
+}
+
+
+.text {
+    margin-top: 20px;
+    color: #2b2745;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text>h4 {
+    margin: 0 0 5px 0;
+}
+
+.text>p {
+    margin: 0 0 15px 0;
+}
+
+
+
+.top-heading {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px 0px 10px;
+    background-color: white;
+}
+
+.top-heading>h4 {
+    color: #2b2745;
+}
+
+.top-heading>p {
+    color: #2b2745;
+}
+
+.rules-content {
+    width: 70%;
+    margin: 0%;
+    padding: 0%;
+    color: #2b2745;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+    padding: 10px 10px 30px 10px;
+    background-color: white;
+}
+
+.rules-content>h4 {
+    margin: 20px 0 10px 0;
+    color: #2b2745;
+}
+
+.rules-content>p {
+    color: #2b2745;
+}
+
+.ol-IHF {
+    margin: 0%;
+    padding: 0%;
+}
+
+.ol-IHF>li {
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+
+.ol-IHF>li::marker {
+    font-weight: bold;
+}
+
+.ol-IHF>li>span {
+    font-weight: bold;
+}
+
+.ul-IHF {
+    margin: 0%;
+    padding: 0%;
+}
+
+.ul-IHF>li {
+    list-style-type: lower-alpha;
+}
+
+.ul-allplay {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0;
+    padding-left: 60px;
+
 }
