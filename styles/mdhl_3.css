@@ -285,13 +285,6 @@ footer {
     object-position: center 53%;
 }
 
-
-
-
-
-
-
-
 h4 {
     margin: 0;
     color: white;
@@ -302,7 +295,6 @@ p {
     color: white;
 }
 
-
 .text {
     margin-top: 20px;
     color: #2b2745;
@@ -311,7 +303,6 @@ p {
     align-items: center;
 }
 
-
 .text>h4 {
     margin: 0 0 5px 0;
 }
@@ -319,8 +310,6 @@ p {
 .text>p {
     margin: 0 0 15px 0;
 }
-
-
 
 .top-heading {
     width: 70%;
@@ -347,7 +336,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
-
     padding: 10px 10px 30px 10px;
     background-color: white;
 }
@@ -380,7 +368,6 @@ p {
 }
 
 .ul-IHF {
-    
     text-align: justify;
     width: 50%;
     margin: 0%;
@@ -396,5 +383,95 @@ p {
     list-style-position: inside;
     margin: 0;
     padding-left: 60px;
+}
 
+.main-gameinfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table {
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #9b1633;
+    color: white;
+    font-size: larger;
+}
+
+td {
+    background-color: #9f9bc4;
+    color: #2b2745;
+    font-size: 18px;
+}
+
+.september, .date{
+    text-align: center;
+}
+
+p>span {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.gameinfo-display {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.gameinfo-display>h3 {
+    font-size: 32px;
+    color: #fae130;
+    background-color: #2b2745;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 4px;
+    height: 6vh;
+    width: 18vw;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.gameinfo-display>h5 {
+    padding-left: 5px;
+    margin: 0%;
+    font-style: italic;
+    text-decoration: underline;
+    color: #2b2745;
+}
+
+.gameinfo-display>p {
+    padding-bottom: 15px;
+    color: #2b2745;
+}
+
+.gameinfo-div1 {
+    padding: 40px 0 20px 0;
+}
+
+.gameinfo-div1>p {
+    padding-bottom: 15px;
+    color: #2b2745;
+}
+
+.gameinfo-div2 {
+    display: flex;
+}
+
+.gameinfo-div2>p {
+    padding-right: 100px;
+    color: #2b2745;
 }
