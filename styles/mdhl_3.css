@@ -414,7 +414,8 @@ td {
     font-size: 18px;
 }
 
-.september, .date{
+.september,
+.date {
     text-align: center;
 }
 
@@ -476,20 +477,14 @@ p>span {
     color: #2b2745;
 }
 
-
-
-
-
-
-
-
 .main_registration {
     display: flex;
     justify-content: center;
 }
+
 form {
-    padding: 40px 20px 40px 20px;
-    width: 80%;
+    padding: 10px 20px 40px 20px;
+    width: 65%;
     background-color: #fae130;
     color: #2b2745;
 }
@@ -565,25 +560,15 @@ label[for="gender"] {
 
 }
 
-form>h3 {
-    margin-top: 0;
-    font-size: 2vw;
-    margin-bottom: 1vw;
-    margin-left: 310px;
-}
-
-form>h4 {
-    font-size: 1.5vw;
-    padding-top: 2vw;
-    color: #2b2745;
-}
-
-form>h5 {
+fieldset>h5 {
     margin: 0%;
-    font-size: 1vw;
-    padding-top: 1vw;
+    padding: 10px 0 0 5px;
+    font-size: 16px;
     color: #2b2745;
+    filter: drop-shadow(1px 1px 5px white);
 }
+
+
 
 .permission {
     margin-top: 1vw;
@@ -598,20 +583,34 @@ fieldset>p {
     color: #2b2745;
 }
 
+fieldset {
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    border: 2px dotted #9b1633;
+}
+
+legend {
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #2b2745;
+    filter: drop-shadow(1px 1px 5px white);
+}
+
 button {
     margin: 0%;
-    padding: 10px 20px;
+    margin-top: 20px;
+    padding: 10px 50px;
     font-size: 17px;
     font-weight: 700;
     font-family: inherit;
-    background-color:#9b1633;
+    background-color: #9b1633;
+
+    border: solid 1px white;
     color: white;
-    border-radius: 10px;
+    filter: drop-shadow(1px 1px 5px white);
 }
 
 button:hover {
-
-    border: solid 1px black;
     transition: 500ms;
     font-size: larger;
     cursor: pointer;
