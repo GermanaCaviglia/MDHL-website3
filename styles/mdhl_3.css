@@ -482,6 +482,11 @@ p>span {
     justify-content: center;
 }
 
+
+.locations {
+    text-align: center;
+}
+
 form {
     padding: 10px 20px 40px 20px;
     width: 65%;
@@ -619,4 +624,8 @@ button:hover {
 .button {
     display: flex;
     justify-content: right;
+}
+
+.iframe {
+    text-align: center;
 }
