@@ -475,3 +475,149 @@ p>span {
     padding-right: 100px;
     color: #2b2745;
 }
+
+
+
+
+
+
+
+
+.main_registration {
+    display: flex;
+    justify-content: center;
+}
+form {
+    padding: 40px 20px 40px 20px;
+    width: 80%;
+    background-color: #fae130;
+    color: #2b2745;
+}
+
+.name_lastname,
+.location,
+.personalinfo {
+    display: flex;
+}
+
+.first_name,
+.last_name,
+.city,
+.zip_code,
+.birth_date,
+.gender {
+    display: flex;
+    width: 50%;
+    margin-top: 2vw;
+}
+
+.first_name>input {
+    width: 65%;
+}
+
+.last_name>input {
+    width: 75%;
+}
+
+.street_address>input {
+    width: 84%;
+}
+
+.city>input {
+    width: 90%;
+}
+
+.zip_code>input {
+    width: 77%;
+}
+
+.birth_date>input {
+    width: 56%;
+    color: #2b2745;
+}
+
+.street_address,
+.grades {
+    margin-top: 2vw;
+}
+
+.signature>input {
+    width: 35%;
+}
+
+.lists {
+    display: flex;
+}
+
+.list1,
+.list2 {
+    width: 30%;
+}
+
+input {
+    border-style: none;
+    border-bottom: #2b2745 solid 1px;
+    background-color: #fae130;
+}
+
+label[for="gender"] {
+    padding-right: 15px;
+
+}
+
+form>h3 {
+    margin-top: 0;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-left: 310px;
+}
+
+form>h4 {
+    font-size: 1.5vw;
+    padding-top: 2vw;
+    color: #2b2745;
+}
+
+form>h5 {
+    margin: 0%;
+    font-size: 1vw;
+    padding-top: 1vw;
+    color: #2b2745;
+}
+
+.permission {
+    margin-top: 1vw;
+}
+
+.inside_div {
+    margin-top: 1vw;
+}
+
+fieldset>p {
+    padding-top: 1vw;
+    color: #2b2745;
+}
+
+button {
+    margin: 0%;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: inherit;
+    background-color:#9b1633;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+
+    border: solid 1px black;
+    transition: 500ms;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+}
